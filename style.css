@@ -119,3 +119,133 @@ h1{
     color: red;
     text-decoration: none;
 }
+
+section{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n){
+    background-color: grey;
+}
+
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+.section-heading{
+    /* font-family: 'Courier New', Courier, monospace; */
+    width: auto;
+    padding: 20px 10px 10px 0px;
+    font-weight: 400;
+}
+
+.section-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+.skills-display{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skill-progress{
+    width: 11rem;
+    height: 2.2rem;
+    background-color: lightgray;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 25px;
+    overflow: hidden;
+}
+
+.skill-progress>div{
+    box-shadow: 1px 1px 5px 2px #989882;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.mb75px{
+    margin-bottom: 75px;
+}
+
+.text-highlight{
+    color: #2857a4;
+    font-weight: 600;
+}
+
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+}
+
+.fifty-five-percent{
+    width: 55%;
+    height: inherit;
+}
+
+.eighty-percent{
+    width: 80%;
+    height: inherit;
+}
+
+.sixty-percent{
+    width: 60%;
+    height: inherit;
+}
+
+.twenty-percent{
+    width: 20%;
+    height: inherit; 
+}
+
+.ten-percent{
+    width: 10%;
+    height: inherit;
+}
+
+.mb-blue{
+    background-color: blue;
+}
+
+.mb-green{
+    background-color: green;
+}
+
+.mb-orange{
+    background-color: orange;
+}
+
+.mb-thistle{
+    background-color: thistle;
+}
+
+.mb-teal{
+    background-color: teal;
+}
+
+.mb-violet{
+    background-color: violet;
+}
+
+.mb-yellowgreen{
+    background-color: yellowgreen;
+}
+

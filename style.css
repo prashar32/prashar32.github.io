@@ -184,6 +184,11 @@ section:nth-child(2n+1){
     margin-bottom: 75px;
 }
 
+.thirty-percent {
+    width: 30%;
+    height: inherit;
+}
+
 .eighty-five-percent{
     width: 85%;
     height: inherit;
@@ -196,6 +201,11 @@ section:nth-child(2n+1){
 
 .eighty-percent{
     width: 80%;
+    height: inherit;
+}
+
+.fifty-percent {
+    width: 50%;
     height: inherit;
 }
 
@@ -286,12 +296,12 @@ section:nth-child(2n+1){
 }
 
 .portfolio-image-container:hover {
-    box-shadow: 0 0 20px #74ADC8;
+    box-shadow: 0 0 20px #0a0b0b;
 }
 
 .portfolio-image-container:hover .portfolio-details {
-    background-color: #80808078;
-    color: white;
+    background-color: #100f0f78;
+    color: rgb(255, 255, 255);
 } 
 
 #contact {
@@ -370,24 +380,24 @@ textarea {
 }
 
 #contact-form button[type="submit"] {
-    background: transparent;
+    height: 50px;
+    width: 130px;
+    background-color: #fdfdfa6b;
     font-size: 0.95rem;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     margin-top: 5%;
     margin-left: 35%;
     border-radius: 2px;
-    color: white;
     font-family: sans-serif;
     font-weight: 700;
     letter-spacing: 0.046875em;
-    line-height: 1;
     padding: 0.8em 0.8em 0.78em;
     text-transform: uppercase;
 }
 
 #contact-form button:hover {
-    background: white;
-    color: #13386fe0;
+    background: rgb(232, 232, 232);
+    color: #175cc2e0;
 }
 
 #contact .social-icons li a i {
@@ -524,6 +534,10 @@ button:focus {
 
 .text-align-justify {
     text-align: justify;
+}
+
+.text-align-left {
+    text-align: left;
 }
 
 .text-1rem{
